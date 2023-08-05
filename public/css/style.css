@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pokebox{
+    margin-top: 50px;
+}
+.icono {
+    width: 300px;
+    height: 100px;
+}
+.bg-blue{
+    background-color: #2E86C1;
+}
+.nav-item{
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-default{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.title-size{
+    font-size: 50px !important;
+}
+.foto-pokemon{
+    width: 200px;
+    height: 180px;
+}
+@media (width < 610px ) {
+    .icono{
+        width: 200px;
+        height: 70px;
+    }
+}
+@media screen and (width < 401px) {
+    .icono{
+        width: 150px;
+        height: 70px
+    }
+}
